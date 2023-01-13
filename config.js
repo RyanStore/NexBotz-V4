@@ -27,13 +27,13 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/ryannzx_store'
-global.syt = 'https://www.youtube.com/@ryannnadtprtm'
-global.sgh = 'https://github.com/YannPrtm'
+global.sig = 'https://instagram.com/l_.bot'
+global.syt = '-'
+global.sgh = 'https://github.com/Enceplzzz'
 global.sgc = 'https://chat.whatsapp.com/I47cTfEwzIC391KPBjbTPq'
-global.swa = 'wa.me/6282252285143'
+global.swa = 'wa.me/6282213009085'
 global.swb = 'https://discord.gg/'
-global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
+global.snh = '-' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
 global.pdana = '-'
@@ -44,18 +44,18 @@ global.ppulsa2 = '-'
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62822522851438'
-global.nomorown = '62822522851432'
-global.namebot = 'xʏʟᴏɪᴅ ʙᴏᴛ'
-global.nameown = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛᴢ'
+global.nomorbot = '6281214909605'
+global.nomorown = '6282213009085'
+global.namebot = 'ʟ-ʙᴏᴛᴢ'
+global.nameown = 'ʟ'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['62822522851432'],
-  ['62822522851432'],
-  ['62822522851432'],
-  ['62822522851432', 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛ', true]
+  ['6282213009085'],
+  ['6282213009085'],
+  ['6282213009085'],
+  ['6282213009085', 'L', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -105,16 +105,16 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'ʙʏ xʏʟᴏɪᴅ-ʙᴏᴛᴢ' //Main Watermark
-global.wm2 = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ-ʙᴏᴛᴢ'
-global.wm3 = 'xʏʟᴏɪᴅ ʙᴏᴛᴢ | ᴏᴡɴᴇʀ : 082252285143\n✈︎ 2023'
+global.wm = 'ʟ-ʙᴏᴛᴢ' //Main Watermark
+global.wm2 = 'ᴏᴡɴᴇʀ ʟ-ʙᴏᴛᴢ'
+global.wm3 = 'ʟ-ʙᴏᴛᴢ'
 global.botdate = `⻝ 𝘋 𝘈 𝘛 𝘌 : ${week} ${date}\n⻝ 𝘛𝘪𝘮𝘦: ${wktuwib}`
 global.bottime = `⻝ 𝘛 𝘐 𝘔 𝘌  : ${wktuwib}`
-global.titlebot = `xʏʟᴏɪᴅ | ʙʏ ${global.nameown}`
-global.author = 'xʏʟᴏɪᴅ-ʙᴏᴛ' 
-global.packname = 'ʀʏᴀɴɴ\nᴡᴀ : 62822522851432'
+global.titlebot = `ʟ-ʙᴏᴛᴢ | ʙʏ ${global.nameown}`
+global.author = 'L' 
+global.packname = ''
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
-global.ultahowner = 'Februari 02 2023'
+global.ultahowner = 'Januari 31 2023'
 
 
 /*============== LOGO ==============*/
@@ -131,11 +131,11 @@ global.thumbWarn = 'https://telegra.ph/file/a5eb5169ab1330a537e0b.jpg'
 global.botintro = 'ʜɪ ɪ ᴀᴍ xʏʟᴏɪᴅ ʙᴏᴛ,sᴀʏᴀ sɪᴀᴘ ᴍᴇʟᴀʏᴀɴɪ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ғɪᴛᴜʀ ʏᴀɴɢ sᴀʏᴀ ᴍɪʟɪᴋɪ, sᴇᴘᴇʀᴛɪ ᴍᴇᴍʙᴜᴀᴛ sᴛɪᴋᴇʀ,ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅ/ᴀᴜᴅ ᴅʟʟ.ᴋᴇᴛɪᴋ ᴍᴇɴᴜ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴀᴋsᴇs'
 global.intro = 'https://telegra.ph/file/47a0c1a961c43abfe5542.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'ᴏᴡɴᴇʀ xʏʟᴏɪᴅ ʙᴏᴛ'
-global.umurowner = '24'
-global.asalowner = 'ᴊᴀᴡᴀ ʙᴀʀᴀᴛ,ʙᴀɴᴅᴜɴɢ'
-global.nomorowner = 'wa.me/62822522851432'
-global.pacarowner = 'ᴀ'
+global.nameowner = 'L'
+global.umurowner = '17'
+global.asalowner = 'Isekai'
+global.nomorowner = 'wa.me/6282213009085'
+global.pacarowner = 'Narberal Gamma'
 
 /*============== TEXT ==============*/
 global.wait = '```ʟᴏᴀᴅɪɴɢ...```'
@@ -383,8 +383,8 @@ global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1
 'https://i.pinimg.com/originals/fd/21/41/fd21419275236bb153de3c8dcbbf3bf9.jpg',
 'https://i.pinimg.com/originals/80/4f/1a/804f1a05f9996c96a2d492b4854b7fd5.jpg']
 /*============== STICKER WM ==============*/
-global.stickpack = 'ʙʏ xʏʟᴏɪᴅ ʙᴏᴛ'
-global.stickauth = `ᴡᴀ : 0822522851438`
+global.stickpack = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
+global.stickauth = `ʟ-ʙᴏᴛᴢ`
 
 global.multiplier = 27 // The higher, The harder levelup
 
