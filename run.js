@@ -1,20 +1,21 @@
 const { spawn } = require('child_process')
-const cp = require('child_process')
-// const chalk = require('chalk')
-const { promisify } = require('util')
-const exec = promisify(cp.exec).bind(cp)
+const path = require('path')
 
-
-function start(cmd) {
-	return spawn(cmd, [], {
-		stdio: ['inherit', 'inherit', 'inherit', 'ipc']
+function start() {
+	let args = [path.join(__dirname, 'index.js'), ...process.argv.slice(2)]
+	console.log([process.argv[0], ...args].join('\n'))
+	let p = spawn(process.argv[0], args, { stdio: ['inherit', 'inherit', 'inherit', 'ipc'] })
+	.on('message', data => {
+		if (data == 'reset') {
+			console.log('Restarting Bot...')
+			p.kill()
+			start()
+			delete p
+		}
+	})
+	.on('exit', code => {
+		console.error('Exited with code:', code)
+		if (code == 1) start()
 	})
 }
-
-start('clear')
-
-// start('screenfetch')
-
-start('bash')
-
-console.log('terminal ready to use!')
+start()
